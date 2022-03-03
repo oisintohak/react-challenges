@@ -1,13 +1,20 @@
 import css from './App.module.css';
-import NavBarSimple from './components/NavBarSimple';
 import Sidebar from './components/Sidebar';
+import NavBarForm from './components/NavBarForm';
+
+// import NavBarSimple from './components/NavBarSimple';
+// import EventsClass from './components/EventsClass';
+// import EventsFunctional from './components/EventsFunctional';
 
 function App() {
   return (
     <div className={css.App}>
       {/* Add your components here */}
-      <NavBarSimple />
       <Sidebar />
+      <NavBarForm />
+      {/* <NavBarSimple /> */}
+      {/* <EventsFunctional /> */}
+      {/* <EventsClass /> */}
     </div>
   );
 }

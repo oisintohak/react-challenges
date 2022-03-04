@@ -1,6 +1,7 @@
 import css from './App.module.css';
 import Sidebar from './components/Sidebar';
 import NavBarForm from './components/NavBarForm';
+import Content from './components/Content';
 
 // import NavBarSimple from './components/NavBarSimple';
 // import EventsClass from './components/EventsClass';
@@ -12,6 +13,7 @@ function App() {
       {/* Add your components here */}
       <Sidebar />
       <NavBarForm />
+      <Content />
       {/* <NavBarSimple /> */}
       {/* <EventsFunctional /> */}
       {/* <EventsClass /> */}

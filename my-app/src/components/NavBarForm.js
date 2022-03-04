@@ -22,7 +22,7 @@ export class NavBarForm extends Component {
 
     render() {
         return (
-            <div className={css.NavBar}>
+            <div className={css.NavBarForm}>
                 <h1>My Gallery</h1>
                 <div>
                     {this.state.isLoggedIn ? 

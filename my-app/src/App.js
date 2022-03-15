@@ -1,7 +1,8 @@
 import css from './App.module.css';
 import Sidebar from './components/Sidebar';
 import NavBarForm from './components/NavBarForm';
-import ContentHooks from './components/ContentHooks';
+import ContentAPI from './components/ContentAPI'
+// import ContentHooks from './components/ContentHooks';
 // import Content from './components/Content';
 
 // import NavBarSimple from './components/NavBarSimple';
@@ -14,7 +15,7 @@ function App() {
       {/* Add your components here */}
       <Sidebar />
       <NavBarForm />
-      <ContentHooks />
+      <ContentAPI />
       {/* <NavBarSimple /> */}
       {/* <EventsFunctional /> */}
       {/* <EventsClass /> */}
